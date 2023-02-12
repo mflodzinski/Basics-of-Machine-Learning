@@ -1,5 +1,4 @@
 from typing import Iterable, Optional
-
 from move import Move
 from player import Player
 

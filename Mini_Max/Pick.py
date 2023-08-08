@@ -155,29 +155,3 @@ class PickState(State):
             other_player_indexes.append(*index)
 
         return current_player_indexes, other_player_indexes
-
-            
-# game = Pick(n=3)
-# game.make_move(PickMove(5))
-# char = int(game.state._current_player.char)-1
-# print(game.state.static_evaluation(1 - char))
-
-# game.make_move(PickMove(1))
-# char = int(game.state._current_player.char)-1
-# print(game.state.static_evaluation(1 - char))
-
-# game.make_move(PickMove(3))
-# char = int(game.state._current_player.char)-1
-# print(game.state.static_evaluation(1 - char))
-
-# game.make_move(PickMove(7-1))
-# char = int(game.state._current_player.char)-1
-# print(game.state.static_evaluation(1 - char))
-
-# game.make_move(PickMove(9))
-# char = int(game.state._current_player.char)-1
-# print(game.state.static_evaluation(1 - char))
-
-# game.make_move(PickMove(8))
-# char = int(game.state._current_player.char)-1
-# print(game.state.static_evaluation(1 - char))
